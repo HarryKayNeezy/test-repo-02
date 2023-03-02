@@ -4,6 +4,6 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Triggering Wokflow 2 - Astom is testing"
+      - run: echo "Triggering Wokflow 2 - Astom is testing - && Harry"
       - name: Checkout
         uses: actions/checkout@v2
